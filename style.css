@@ -1,0 +1,602 @@
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+.uparrow {
+  width: 60px;
+  position: fixed;
+  top: 88%;
+  right: 5%;
+  z-index: 5;
+}
+.auparrow-icon {
+  width: 60px;
+  transition: 0.5s;
+}
+.auparrow-icon:hover {
+  transition: 0.5s;
+  filter: saturate(300%);
+}
+h1 {
+  font-size: 50px;
+  font-style: normal;
+}
+h2 {
+  font-weight: 700;
+  font-size: 35px;
+  color: #fff;
+}
+.h2-acerca {
+  color: #fff;
+  font-size: 40px;
+  padding-bottom: 30px;
+  padding-top: 80px;
+  word-spacing: 1px;
+}
+h5 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 400;
+  color: #1b1b1b;
+  padding-bottom: 50px;
+}
+.h5-acerca {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bolder;
+  color: #1b1b1b;
+  padding-bottom: 50px;
+}
+.h6-eventos {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: #292929;
+  padding: 0;
+}
+.lineblue {
+  width: 80px;
+  height: 5px;
+  background-color: #0466c8;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.contenedor-limite {
+  max-width: 1030px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  padding: 0;
+}
+.padding {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.padding3 {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+li {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0 2px;
+  transition: background-size 0.3s;
+}
+li:focus,
+li:hover {
+  background-size: 100% 2px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, sans-serif;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  background-color: #00184500;
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background: linear-gradient(to bottom, #0466c8, rgba(6, 19, 138, 0.548));
+}
+.div-main {
+  width: 500px;
+  margin-left: 10%;
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  word-spacing: 3px;
+  font-size: 25px;
+}
+.h2-title {
+  text-transform: none;
+}
+.line-main {
+  margin: 10px;
+  height: 2px;
+  width: 150px;
+  background-color: #23b5b5;
+}
+.color-main {
+  background-image: url(img/portada-header.webp);
+  height: 625px;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 13px 0 #494949;
+}
+.color-main2 {
+  background-image: url(img/portada-header.webp);
+  height: 750px;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 13px 0 #494949;
+}
+.color-main3 {
+  background-image: url(img/portada-header.webp);
+  height: 930px;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 13px 0 #494949;
+}
+.sjg-logo {
+  width: 125px;
+}
+.menu {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#btn-menu {
+  display: none;
+}
+nav {
+  padding: 30px;
+  align-items: center;
+}
+header label {
+  display: none;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+header label:hover {
+  cursor: pointer;
+  background-color: #001233;
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+ul {
+  width: 100%;
+}
+.ul-right-nav {
+  justify-content: space-evenly;
+}
+li {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  align-items: center;
+  transition: 0.5s;
+}
+.menu li:hover {
+  color: #1dcffc;
+}
+.section-sergio {
+  max-width: 1000px;
+  max-height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+.div-sergiomain1 {
+  text-align: center;
+  max-width: 400px;
+}
+.div-sergiomain2 {
+  max-width: 400px;
+}
+.p-sergiomain {
+  color: #fff;
+  word-spacing: 1px;
+  margin-top: 25px;
+  padding-bottom: 15px;
+}
+.img-sergiomain {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 13px 0 #181818;
+}
+.button-sergiomain {
+  width: 110px;
+  height: 50px;
+  background: linear-gradient(#0466c8, #2779aa);
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-top: 50px;
+  transition: 0.5s;
+  box-shadow: 2px 2px 13px 0 #494949;
+}
+.button-sergiomain:hover {
+  transition: 0.5s;
+  filter: saturate(300%);
+  transition-timing-function: ease;
+}
+.p-button {
+  color: #fff;
+  padding-top: 15px;
+}
+.p-comprar {
+  color: #fff;
+  padding-top: 15px;
+  text-align: center;
+}
+.a-contact-libro {
+  width: 350px;
+  margin: 0 auto;
+  display: flex;
+  color: #131212;
+  align-items: center;
+  padding: 5px;
+}
+textarea {
+  width: 100%;
+  border-radius: 15px;
+  height: 100px;
+  font-family: Raleway, sans-serif;
+}
+.div-contact-book {
+  padding-top: 50px;
+}
+@media (max-width: 768px) {
+  .color-main {
+    height: 667px;
+  }
+  .div-main {
+    padding-left: 5%;
+    margin: 0 auto;
+    flex-direction: column;
+    max-width: 300px;
+  }
+  header label {
+    display: block;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 20px;
+    width: 300px;
+    margin: 0;
+  }
+  .h2-acerca {
+    margin: 0 auto;
+  }
+  .h4-footer {
+    font-size: 10px;
+  }
+  h5 {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .div-responsive {
+    padding: 0;
+  }
+  .sergio-img-trabajospericiales {
+    display: none;
+  }
+  .h2-form {
+    margin: 0 auto;
+  }
+  .h2-libro {
+    margin: 0 auto;
+  }
+  .p-description-libro {
+    text-align: center;
+    max-width: 600px;
+  }
+  .section-libro {
+    max-width: 600px;
+  }
+  .menu {
+    position: absolute;
+    background-color: #001233;
+    opacity: 0.9;
+    width: 60%;
+    margin-left: -70%;
+    transition: 0.5s;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .menu ul {
+    flex-direction: column;
+  }
+  #btn-menu:checked ~ .menu {
+    margin: 0;
+  }
+  .div-nav-left {
+    display: none !important;
+  }
+  .div-nav-right {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .div-img-libro {
+    display: flex;
+    flex-direction: column;
+  }
+  .line-footer {
+    display: none;
+  }
+  ul {
+    padding: 0;
+  }
+  .icons-footer {
+    width: 30px;
+  }
+  .responsive-nopadding {
+    padding: 15px;
+  }
+  .div-cover {
+    flex-direction: column;
+  }
+  .color-section-sergio {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  .section-sergio {
+    flex-direction: column;
+  }
+  .div-sergiomain1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .formulario {
+    max-width: 300px;
+  }
+  .p-acerca {
+    max-width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+.sergio-img-trabajospericiales {
+  width: 325px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 13px 0 #0a0a0a;
+  opacity: 90%;
+  filter: saturate(150%);
+}
+.div-nav-right {
+  width: 50%;
+}
+.div-nav-left {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  align-items: center;
+  transition: 0.5s;
+}
+a:hover {
+  color: #23b5b5;
+}
+nav img {
+  padding-right: 7px;
+  padding-left: 5px;
+}
+.div-img-libro {
+  margin: 0 auto;
+  max-width: 850px;
+  align-items: center;
+  justify-content: space-between;
+}
+.h2-libro {
+  font-size: 45px;
+  color: #000;
+  text-align: center;
+  padding-bottom: 55px;
+}
+.img-libro {
+  max-width: 300px;
+}
+.p-description-libro {
+  word-spacing: 3px;
+  text-align: start;
+  border-radius: 15px;
+  padding: 30px;
+  color: #272727;
+}
+.color-form {
+  height: 650px;
+}
+.h2-form {
+  color: #fff;
+  text-align: center;
+  font-size: 45px;
+  padding-bottom: 55px;
+}
+.formulario {
+  margin: 0 auto;
+  width: 500px;
+  height: 450px;
+  text-align: center;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+}
+label {
+  display: block;
+  color: gray;
+  font-size: 20px;
+  padding: 10px;
+}
+input {
+  color: gray;
+  background-color: #f3f3f3;
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+input:hover {
+  font-size: 12px;
+  transition: 0.5s;
+}
+.btn-form {
+  color: #fff;
+  width: 110px;
+  height: 50px;
+  background: linear-gradient(#0466c8, #2779aa);
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  transition: 0.5s;
+  box-shadow: 2px 2px 13px 0 #000;
+  font-size: 16px;
+}
+.btn-form:hover {
+  filter: saturate(300%);
+  border-color: #7ce2f0;
+  box-shadow: 0 1px 1px #7ce2f0 inset, 0 0 8px #7ce2f0;
+  outline: 0 none;
+}
+.color-footer {
+  background: linear-gradient(to bottom, #0466c8, rgba(4, 33, 95, 0.733));
+}
+.div-footer {
+  align-items: center;
+}
+.icons-footer {
+  width: 45px;
+  transition: 0.5s;
+}
+.icons-footer2 {
+  width: 20px;
+  padding: 5px;
+  transition: 0.5s;
+}
+.icons-footer:hover {
+  filter: saturate(300%);
+  transition: 0.5s;
+}
+li:hover {
+  color: #1dcffc;
+}
+.line-footer {
+  width: 2px;
+  height: 145px;
+  background-color: #23b5b5;
+}
+.li-footer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 17px;
+}
+.li-footer2 {
+  width: 20px;
+}
+.line-footer2 {
+  height: 2px;
+  width: 100%;
+  background-color: #23b5b5;
+  margin: 0 auto;
+}
+h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+}
+h4 {
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  word-spacing: 2px;
+  font-weight: 400;
+}
+.contact-marcos {
+  width: 60px;
+  padding: 10px;
+  margin: 0 auto;
+  font-family: Montserrat, sans-serif;
+}
+.justify {
+  justify-content: space-between;
+}
+.padding2 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.arrow-acerca {
+  width: 30px;
+  transition: 0.3s;
+}
+.arrow-acerca:hover {
+  width: 40px;
+  transition: 0.3s;
+  filter: saturate(300%);
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 15px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transition-delay: 0.3s;
+  border-radius: 50%;
+}
+.li-cv {
+  color: #fff;
+  font-weight: 700;
+}
+.ul-cv {
+  width: 350px;
+  padding: 0;
+  text-align: start;
+  margin: 0;
+}
+.p-acerca {
+  text-align: center;
+}
+.div-trabajospericiales {
+  display: flex;
+  max-width: 900px;
+  align-items: center;
+  justify-content: space-between;
+  height: 600px;
+  margin: 0 auto;
+}
+.paddingtop-title {
+  padding-top: 150px;
+}
+.pdf-icon {
+  width: 20px;
+  padding-right: 10px;
+}
+.padding-a {
+  padding: 5px;
+}
+input:focus,
+input[type]:focus,
+textarea:focus {
+  border-color: #7ce2f0;
+  box-shadow: 0 1px 1px #7ce2f0 inset, 0 0 8px #7ce2f0;
+  outline: 0 none;
+}
